@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dating Website</title>
+</head>
+
+<h1>Please Enter Your Details For Our Dating Website!</h1>
+
+<body>
+
+<fieldset>
+    <legend>Your Face</legend>
+    <label for="avatar">Your image: <input type="file" size="20" id="avatar" required>    <br>
+        <label for="preview">Image Preview:  <img id="preview">      <br>
+</fieldset>
+
+<fieldset>
+    <legend>Your General Details</legend>
+    <label for="name">Name: <input type="text" id="name" required>          <br>
+        <label for="gender">Gender: <input type="radio" id="gender">Male<input type="radio" id="gender">Female    <br>
+            <label for="age">Age: <input type="number" style="width: 3em" id="age" required>      <br>
+                <label for="dob">Date of birth: <input type="date" id="dob">         <br>
+                    <label for="favcolor">Favorite Color: <input type="color" id="favcolor">       <br>
+                        Which Country:
+                        <select>
+                            <option value="noselection">No Selection</option>
+                            <option>United States</option>
+                            <option>Canada</option>
+                            <option>Mexico</option>
+                            <option>United Kingdom</option>
+                            <option>China</option>
+                        </select>
+</fieldset>
+
+<fieldset>
+    <legend>Your Indicators</legend>
+    <label for="height">Height: Short<input type="range" min="0" max="100" id="height">Tall   <br>
+        <label for="salary">Salary: Poor<input type="range" min="0" max="100" id="salary">Rich    <br>
+</fieldset>
+
+<fieldset>
+    <legend>Your Contact Information</legend>
+    <label for="email">Email: <input type="email" id="email" required>   <br>
+        <label for="mobile">Mobile: <input type="tel" id="mobile">        <br>
+            <label for="address">Address: <textarea id="address"></textarea>  <br>
+                <label for="contact">Method to contact you: <input type="checkbox" id="contact">Email<input type="checkbox" id="contact">Whatsapp<input type="checkbox" id="contact">In-app chat           <br>
+</fieldset>
+
+<input type="submit">
+
+</body>
+</html>
